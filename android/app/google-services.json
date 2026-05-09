@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "22330851213",
+    "project_id": "flameup-4df68",
+    "storage_bucket": "flameup-4df68.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22330851213:android:ee7ecbfb393369ecdf87c4",
+        "android_client_info": {
+          "package_name": "flameup.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22330851213-q65av2lgekp3oq8684vj3i2qah52rv98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfjfo1vl2ZNO6u5RugNSDA3kAj_C9vro4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22330851213-q65av2lgekp3oq8684vj3i2qah52rv98.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "22330851213-4kka8877kir5qhotuehqk7ofrqlcnkbv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "flameup.com.flameup"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22330851213:android:aca9dc63e0a7fe62df87c4",
+        "android_client_info": {
+          "package_name": "flameup.com.flameup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22330851213-r5dc16mshfsnf4qseva7nc14gpc503t7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "flameup.com.flameup",
+            "certificate_hash": "482515a026e10d6e92c57b64106c53da4a0d09b3"
+          }
+        },
+        {
+          "client_id": "22330851213-q65av2lgekp3oq8684vj3i2qah52rv98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfjfo1vl2ZNO6u5RugNSDA3kAj_C9vro4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22330851213-q65av2lgekp3oq8684vj3i2qah52rv98.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "22330851213-4kka8877kir5qhotuehqk7ofrqlcnkbv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "flameup.com.flameup"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
