@@ -25,7 +25,7 @@ Flameup is a cross-platform habit and task tracker built with Flutter and Appwri
 Most productivity apps optimise for *capture* — getting tasks in — but forget about *completion*. Flameup is designed around the psychology of habit formation:
 
 1. **The Streak** — A visible, ever-present streak counter rewards users for showing up every day. Missing a day hurts, which keeps the motivation alive.
-2. **Focus over multitasking** — A built-in 25-minute focus timer (Pomodoro-style) pairs each work session with a single task, reducing context-switching.
+2. **Focus over multitasking** — A built-in 25-minute focus timer (Pomodoro-style) pairs each work session with a single task, reducing context switching.
 3. **Social accountability** *(coming soon)* — Buddy challenges and shared streaks make habits a team sport, not a solo grind.
 4. **Progressive achievement** *(coming soon)* — Milestones and unlockable badges celebrate long-term discipline, not just daily wins.
 
@@ -94,7 +94,7 @@ The long-term goal is for Flameup to be the productivity app you *want* to open 
 |-------|-----------|
 | UI framework | [Flutter](https://flutter.dev) (Dart) |
 | Backend / Auth / DB | [Appwrite](https://appwrite.io) |
-| Google Sign-In | `google_sign_in` + Firebase Auth |
+| Google Sign-In | `google_sign_in` + Firebase config (`firebase_options.dart`) |
 | State management | [Riverpod](https://riverpod.dev) |
 | Navigation | [GoRouter](https://pub.dev/packages/go_router) |
 | Local storage | `shared_preferences` |
