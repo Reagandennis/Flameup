@@ -57,7 +57,7 @@ The long-term goal is for Flameup to be the productivity app you *want* to open 
 | Upcoming | Smart | Tasks due tomorrow or later |
 | Work | Custom | User-scoped work tasks |
 | Personal | Custom | Personal errands and goals |
-| Team | Custom | Collaborative / group tasks |
+| Team | Custom | Personal team-related tasks |
 
 ### Streak Tracking
 - Current streak, longest streak, and total completions tracked locally
