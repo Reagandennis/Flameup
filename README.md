@@ -134,7 +134,7 @@ lib/
 - **Singleton services** — `AuthService`, `AppwriteClient`, `NotificationService`, and `StreakService` all use the factory-singleton pattern so a single instance is shared app-wide.
 - **Optimistic updates** — `TaskStore` applies state changes locally before sending them to Appwrite, then rolls back on failure. This makes the UI feel instant even on slow connections.
 - **ChangeNotifier + Riverpod** — `TaskStore` extends `ChangeNotifier` and is consumed directly in the `HomeScreen` via `addListener`, while global state (theme mode, auth) is managed through Riverpod providers.
-- **GoRouter** — All navigation is declarative. The splash screen checks session state and redirects to `/onboarding`, `/login`, or `/home` as appropriate.
+- **GoRouter** — All navigation is declarative. The splash screen checks session state and routes users to `/login` or `/home` based on whether an active session exists.
 
 ---
 
