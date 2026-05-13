@@ -62,7 +62,7 @@ The long-term goal is for Flameup to be the productivity app you *want* to open 
 ### Streak Tracking
 - Current streak, longest streak, and total completions tracked locally
 - Streak increments once per day on the first task completion
-- Broken automatically if a day is skipped
+- If a day is skipped, the streak resets the next time a completion is recorded
 
 ### Focus Timer
 - Built-in 25-minute Pomodoro-style focus timer
