@@ -91,10 +91,10 @@ The long-term goal is for Flameup to be the productivity app you *want* to open 
 ## Tech Stack
 
 | Layer | Technology |
-|-------|-----------|
+|---|---|
 | UI framework | [Flutter](https://flutter.dev) (Dart) |
 | Backend / Auth / DB | [Appwrite](https://appwrite.io) |
-| Google Sign-In | `google_sign_in` + Firebase config (`firebase_options.dart`) |
+| Google Sign-In | Appwrite OAuth2 (`Account.createOAuth2Session`) |
 | State management | [Riverpod](https://riverpod.dev) |
 | Navigation | [GoRouter](https://pub.dev/packages/go_router) |
 | Local storage | `shared_preferences` |
@@ -109,7 +109,7 @@ The long-term goal is for Flameup to be the productivity app you *want* to open 
 ```
 lib/
 ├── main.dart               # App entry, GoRouter, theme providers
-├── firebase_options.dart   # Firebase config (Google Sign-In)
+├── firebase_options.dart   # Generated config for Appwrite Google OAuth
 ├── models/
 │   └── task_models.dart    # FlameTask, TaskListItem, enums, date utilities
 ├── screens/
@@ -142,9 +142,8 @@ lib/
 
 ### Prerequisites
 
-- [Flutter SDK](https://docs.flutter.dev/get-started/install) (stable) with Dart SDK ≥ 3.11.4
-- An [Appwrite](https://appwrite.io) project (self-hosted or cloud)
-- A Firebase project with Google Sign-In enabled (for OAuth)
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (stable channel, Dart SDK ≥ 3.11.4)
+- An [Appwrite](https://appwrite.io) project (self-hosted or cloud) with Google OAuth provider enabled
 
 ### Environment Setup
 
@@ -180,13 +179,9 @@ lib/
    - `recurrence`: string
    - `userId`: string
 
-3. **Configure Firebase (Google Sign-In)**
+3. **Enable Google OAuth in Appwrite**
 
-   Replace `lib/firebase_options.dart` with your own generated file using the
-   [FlutterFire CLI](https://firebase.flutter.dev/docs/cli/):
-   ```bash
-   flutterfire configure
-   ```
+   In your Appwrite Console go to **Auth → OAuth2 providers**, enable **Google**, and supply your Android/iOS OAuth client IDs. No Firebase setup is required; sign-in uses `Account.createOAuth2Session(provider: google)` directly through the Appwrite SDK.
 
 4. **Install dependencies**
    ```bash
