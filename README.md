@@ -164,9 +164,21 @@ lib/
    static const String tasksCollectionId = 'your-tasks-collection-id';
    ```
 
-   Create a **tasks** collection in Appwrite with the following string/boolean attributes:
-   `title`, `note`, `dueLabel`, `dueAt`, `listId`, `bucket`, `priority`,
-   `checklistDone`, `checklistTotal`, `isFlagged`, `tags`, `isDone`, `recurrence`, `userId`
+   Create a **tasks** collection in Appwrite with the following attributes and types:
+   - `title`: string
+   - `note`: string
+   - `dueLabel`: string
+   - `dueAt`: string
+   - `listId`: string
+   - `bucket`: string
+   - `priority`: string
+   - `checklistDone`: integer
+   - `checklistTotal`: integer
+   - `isFlagged`: boolean
+   - `tags`: string array
+   - `isDone`: boolean
+   - `recurrence`: string
+   - `userId`: string
 
 3. **Configure Firebase (Google Sign-In)**
 
