@@ -142,7 +142,7 @@ lib/
 
 ### Prerequisites
 
-- [Flutter SDK](https://docs.flutter.dev/get-started/install) ≥ 3.11
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (stable) with Dart SDK ≥ 3.11.4
 - An [Appwrite](https://appwrite.io) project (self-hosted or cloud)
 - A Firebase project with Google Sign-In enabled (for OAuth)
 
