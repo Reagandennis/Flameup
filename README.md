@@ -1,6 +1,6 @@
 # 🔥 Flameup
 
-> **Keep your habit flames burning.** Track streaks, challenge buddies, and unlock achievements.
+> **Keep your habit flames burning.** Track streaks and build consistency every day.
 
 Flameup is a cross-platform habit and task tracker built with Flutter and Appwrite. Its core belief is simple: **consistency beats intensity**. Every completed task extends your flame — your daily streak — and every broken day resets it. That single mechanic turns mundane to-do lists into a momentum-building game.
 
